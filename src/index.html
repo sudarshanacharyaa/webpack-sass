@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Webpack App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script defer="defer" src="bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <main class="whole-wrapper">
+        <header class="header-wrapper">
+            <nav class="navigation-bar">
+                <div class="header-logo">
+                    <img inline src="../assets/logo.svg" alt="logo-head">
+                </div>
+                <input type="checkbox" name="click" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <div class="nav-bar">
+                    <span><a href="#">Home</a></span>
+                    <span><a href="#">Product</a></span>
+                    <span><a class="active" href="#">Contact</a></span>
+                </div>
+            </nav>
+        </header>
+
+        <section class="query">
+            <h3>CONTACT US</h3>
+            <textarea name="" id="textArea" cols="10" rows="20" placeholder="Write your query here... "></textarea>
+            <input type="submit" onclick="submitted()" id="btn" value="Submit">
+        </section>
+
+        <footer class="footer-wrapper">
+            <div class="footer-brand">
+                <img inline src="../src/assets/logo.svg" alt="logo">
+            </div>
+            <div class="social-icons">
+                <span class="social-ico-item"><i class="fab fa-twitter"></i></span>
+                <span class="social-ico-item"><i class="fab fa-facebook"></i></span>
+                <span class="social-ico-item"><i class="fab fa-instagram"></i></span>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://kit.fontawesome.com/8ade5e9773.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

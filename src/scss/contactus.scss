@@ -1,0 +1,33 @@
+.query{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 20px;
+
+
+    #textArea{
+        width: 70%;
+        align-self: center;
+    }
+
+    input{
+        border: 2px solid grey;
+        border-radius: 20px;
+        padding: 10px 50px;
+        margin: 20px;
+        width: max-content;
+        align-self: center;
+        background: transparent;
+        font-family: cursive;
+        cursor: pointer;
+        color: grey;
+    }
+
+    input:hover{
+        color: white;
+        background: black;
+        transform: scale(1.2);       
+    }
+
+}
